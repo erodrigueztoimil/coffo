@@ -19,7 +19,7 @@ mongoose
   .catch(console.error);
 
 // API routes
-require("./routes/api/example")(app);
+require("./routes/api/user")(app);
 
 // // production build
 app.use(express.static(path.join(__dirname, "client", "build")));
